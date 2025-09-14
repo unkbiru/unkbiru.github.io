@@ -1,0 +1,56 @@
+/* Personal Card */
+.personal-card {
+  background-color: var(--card-bg-color);
+  width: 100%;
+  min-width: fit-content;
+  height: fit-content;
+  flex-flow: column wrap;
+  padding: 20px;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+/* Avatar */
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* Info */
+.info {
+  flex-flow: column wrap;
+}
+
+.info .name {
+  margin-bottom: -15px;
+}
+
+.info .job span {
+  font-weight: bold;
+  color: var(--light-color);
+}
+
+/* Social Links */
+.social-links {
+  gap: 20px;
+}
+.social-links .social-link {
+  background-color: var(--light-color-f4);
+  width: 40px;
+  height: 40px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+/* Media */
+@media (min-width: 768px) {
+  .personal-card {
+    width: fit-content; /* Fit content for larger screens */
+  }
+}
