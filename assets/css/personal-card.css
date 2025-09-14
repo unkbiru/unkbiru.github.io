@@ -11,10 +11,14 @@
   box-shadow: var(--box-shadow);
 }
 
+.top {
+  gap: 10px;
+}
+
 /* Avatar */
 .avatar {
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
 }
 
 .avatar img {
@@ -24,10 +28,13 @@
 
 /* Info */
 .info {
+  align-items: flex-start;
   flex-flow: column wrap;
 }
 
 .info .name {
+  font-size: 2rem;
+  font-weight: bold;
   margin-bottom: -15px;
 }
 
