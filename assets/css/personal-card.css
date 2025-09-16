@@ -1,8 +1,7 @@
 /* Personal Card */
 .personal-card {
   background-color: var(--card-bg-color);
-  width: 100%;
-  max-width: 300px;
+  width: fit-content;
   min-width: 0;
   flex-flow: column wrap;
   padding: 20px;
@@ -51,9 +50,6 @@
 
 /* Social Links */
 .social-links {
-  flex-flow: warp;
-  width: 74px:
-  height: 74px:
   gap: 10px;
 }
 
