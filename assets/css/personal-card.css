@@ -1,7 +1,7 @@
 /* Personal Card */
 .personal-card {
   background-color: var(--card-bg-color);
-  width: 300px;
+  width: 100%;
   min-width: 0;
   flex-flow: column wrap;
   padding: 20px;
@@ -55,7 +55,7 @@
 
 /* bottom */
 .bottom {
-  width: 100%;
+  width: 200px;
   gap: 10px;
   flex-flow: column wrap;
 }
