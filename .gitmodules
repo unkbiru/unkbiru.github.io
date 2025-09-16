@@ -1,7 +1,0 @@
-[submodule "assignments/html-assignments"]
-	path = assignments/html-assignments
-	url = https://github.com/unkbiru/html-assignments.git
-
-[submodule "threads"]
-	path = threads
-	url = https://github.com/unkbiru/threads.git
