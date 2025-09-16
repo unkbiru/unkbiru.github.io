@@ -51,6 +51,9 @@
 
 /* Social Links */
 .social-links {
+  flex-flow: warp;
+  width: 74px:
+  height: 74px:
   gap: 10px;
 }
 
