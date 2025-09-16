@@ -2,3 +2,9 @@
 [submodule "threads"]
 	path = threads
 	url = https://github.com/unkbiru/threads.git
+[submodule "assignments/css-assignments"]
+	path = assignments/css-assignments
+	url = https://github.com/unkbiru/css-assignments.git
+[submodule "assignments/html-assignments"]
+	path = assignments/html-assignments
+	url = https://github.com/unkbiru/html-assignments.git
