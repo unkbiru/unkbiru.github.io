@@ -12,13 +12,14 @@
 }
 
 .top {
+  flex-flow: column wrap;
   gap: 10px;
 }
 
 /* Avatar */
 .avatar {
-  width: 75px;
-  height: 75px;
+  width: 150px;
+  height: 150px;
 }
 
 .avatar img {
@@ -28,13 +29,13 @@
 
 /* Info */
 .info {
-  align-items: flex-start;
   flex-flow: column wrap;
 }
 
 .info .name {
   font-size: 2rem;
   font-weight: bold;
+  margin-bottom: -15px;
 }
 
 .info .job span {
