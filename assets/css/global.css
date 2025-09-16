@@ -1,5 +1,5 @@
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
 
 /* Global */
 :root {
@@ -66,6 +66,15 @@ body {
   height: 100svh;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+/* icon */
+.icon {
+  font-size: 0.9rem;
+  width: 32px;
+  height: 32px;
+  background-color: var(--light-color-f4);
+  border-radius: 10px;
 }
 
 /* Footer */
