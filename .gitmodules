@@ -4,3 +4,6 @@
 [submodule "assignments/css-assignments"]
 	path = assignments/css-assignments
 	url = https://github.com/unkbiru/css-assignments.git
+[submodule "threads"]
+	path = threads
+	url = https://github.com/unkbiru/threads.git
