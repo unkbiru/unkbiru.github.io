@@ -1,7 +1,0 @@
-.container {
-  flex-flow: column wrap;
-  gap: 10px;
-}
-.card {
-  flex-flow: column wrap;
-}
